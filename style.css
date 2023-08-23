@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Roboto+Mono:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Athiti&family=Roboto+Condensed:ital,wght@1,700&display=swap");
 /* html {
   min-height: 100%;
   min-width: 100%;
@@ -13,8 +14,13 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  line-height: 1.15;
 }
-
+img {
+  width: 400 px;
+  height: 200px;
+  border-radius: 8px;
+}
 .header {
   font-family: roboto;
   background-color: #1f2937;
@@ -60,4 +66,78 @@ li > a {
 }
 .footer i {
   margin-right: 4px;
+}
+
+.main {
+  height: 600 px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(18, 81, 207, 0.81);
+}
+.main > .container1 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+h1 {
+  font-family: ADLaM Display;
+  margin-bottom: 16px;
+}
+.left > p {
+  font-family: Roboto Condensed;
+  margin-bottom: 12px;
+  margin-top: 8px;
+}
+.left > button {
+  text-align: center;
+  border-radius: 5px;
+  width: 56px;
+  height: 30px;
+  color: #fff;
+  background-color: rgba(199, 0, 57);
+  font-family: Roboto Condensed;
+  font-size: 15px;
+}
+
+.panel {
+  width: 300px;
+}
+.panel > img {
+  width: 300px;
+  height: 200px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section1 > h1 {
+  margin-bottom: 32px;
+}
+.panels {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.panel > p {
+  font-family: Athiti;
+  font-weight: 300;
+  font-style: italic;
 }
